@@ -148,9 +148,13 @@ public class Shopping {
 								break;
 								
 							case 2:
+								
 								break;
 								
 							case 3:
+								break;
+							case 4:
+								log.info("Logout Sucessfully!!!");
 								break;
 							}
 							
@@ -161,6 +165,24 @@ public class Shopping {
 				break;
 				
 			case 3:
+				log.info("Enter the FirstName");
+				String f_name = scanner.next();
+				log.info("Enter the LastName");
+				String l_name = scanner.next();
+				log.info("Enter the Email");
+				String email1 = scanner.next();
+				log.info("Enter the Password");
+				String pass1= scanner.next();
+				if(CustomerDaoClass.addCustomer(f_name, l_name, email1, pass1)) {
+					log.info("Sucessfully Register");
+				}else {
+					log.info("Error Occured");
+				}
+				
+				
+				break;
+			case 4:
+				log.info("EXIT Sucessfully!!!!");
 				break;
 			}
 		}while(ch!=4);

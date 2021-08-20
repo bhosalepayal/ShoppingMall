@@ -1903,3 +1903,170 @@
 [main] 2021-08-20 09:28:02 INFO  com.app.Shopping  - Welcome to Customer Login
 [main] 2021-08-20 09:28:02 INFO  com.app.Shopping  - Enter UserName
 [main] 2021-08-20 09:28:02 INFO  com.app.Shopping  - Enter Password
+[main] 2021-08-20 09:30:41 INFO  com.app.Shopping  - Welcome to online shopping Mall
+[main] 2021-08-20 09:30:41 INFO  com.app.Shopping  - ===============================
+[main] 2021-08-20 09:30:41 INFO  com.app.Shopping  - Main Menu
+[main] 2021-08-20 09:30:41 INFO  com.app.Shopping  - 1)  Login As Customer
+[main] 2021-08-20 09:30:41 INFO  com.app.Shopping  - 2)  Login As Employee
+[main] 2021-08-20 09:30:41 INFO  com.app.Shopping  - 3)  Register Customer
+[main] 2021-08-20 09:30:41 INFO  com.app.Shopping  - 4)  EXIT
+[main] 2021-08-20 09:30:41 INFO  com.app.Shopping  - Please enter your choice(1-4)
+[main] 2021-08-20 09:31:00 INFO  com.app.Shopping  - Welcome to Customer Login
+[main] 2021-08-20 09:31:00 INFO  com.app.Shopping  - Enter UserName
+[main] 2021-08-20 09:31:17 INFO  com.app.Shopping  - Enter Password
+[main] 2021-08-20 09:31:20 INFO  com.app.Shopping  - login sucessfully
+[main] 2021-08-20 09:31:20 INFO  com.app.Shopping  - ==================================
+[main] 2021-08-20 09:31:20 INFO  com.app.Shopping  - Welcome, What you wann do today? 
+[main] 2021-08-20 09:31:20 INFO  com.app.Shopping  - ==================================
+[main] 2021-08-20 09:31:20 INFO  com.app.Shopping  - 1)  View Product List
+[main] 2021-08-20 09:31:20 INFO  com.app.Shopping  - 2)  Add Product to Cart
+[main] 2021-08-20 09:31:20 INFO  com.app.Shopping  - 3)  View Cart List
+[main] 2021-08-20 09:31:20 INFO  com.app.Shopping  - 4)  Placed Order
+[main] 2021-08-20 09:31:20 INFO  com.app.Shopping  - 5)  Mark Order Received
+[main] 2021-08-20 09:31:20 INFO  com.app.Shopping  - 6)  Logout
+[main] 2021-08-20 09:31:20 INFO  com.app.Shopping  - Please enter your choice(1-6)
+[main] 2021-08-20 09:31:24 INFO  com.app.Shopping  - ID-1 Fan Price-500
+[main] 2021-08-20 09:31:24 INFO  com.app.Shopping  - 
+[main] 2021-08-20 09:31:24 INFO  com.app.Shopping  - ID-2 Table Price-120
+[main] 2021-08-20 09:31:24 INFO  com.app.Shopping  - 
+[main] 2021-08-20 09:31:24 INFO  com.app.Shopping  - ID-3 Mobile Price-800
+[main] 2021-08-20 09:31:24 INFO  com.app.Shopping  - 
+[main] 2021-08-20 09:31:24 INFO  com.app.Shopping  - ID-4 TV Price-200
+[main] 2021-08-20 09:31:24 INFO  com.app.Shopping  - 
+[main] 2021-08-20 09:31:24 INFO  com.app.Shopping  - ID-5 Parle-G Price-5
+[main] 2021-08-20 09:31:24 INFO  com.app.Shopping  - 
+[main] 2021-08-20 09:31:24 INFO  com.app.Shopping  - 1)  View Product List
+[main] 2021-08-20 09:31:24 INFO  com.app.Shopping  - 2)  Add Product to Cart
+[main] 2021-08-20 09:31:24 INFO  com.app.Shopping  - 3)  View Cart List
+[main] 2021-08-20 09:31:24 INFO  com.app.Shopping  - 4)  Placed Order
+[main] 2021-08-20 09:31:24 INFO  com.app.Shopping  - 5)  Mark Order Received
+[main] 2021-08-20 09:31:24 INFO  com.app.Shopping  - 6)  Logout
+[main] 2021-08-20 09:31:24 INFO  com.app.Shopping  - Please enter your choice(1-6)
+[main] 2021-08-20 12:50:52 INFO  com.app.Shopping  - Welcome to online shopping Mall
+[main] 2021-08-20 12:50:52 INFO  com.app.Shopping  - ===============================
+[main] 2021-08-20 12:50:52 INFO  com.app.Shopping  - Main Menu
+[main] 2021-08-20 12:50:52 INFO  com.app.Shopping  - 1)  Login As Customer
+[main] 2021-08-20 12:50:52 INFO  com.app.Shopping  - 2)  Login As Employee
+[main] 2021-08-20 12:50:52 INFO  com.app.Shopping  - 3)  Register Customer
+[main] 2021-08-20 12:50:52 INFO  com.app.Shopping  - 4)  EXIT
+[main] 2021-08-20 12:50:52 INFO  com.app.Shopping  - Please enter your choice(1-4)
+[main] 2021-08-20 12:51:07 INFO  com.app.Shopping  - Welcome to Customer Login
+[main] 2021-08-20 12:51:07 INFO  com.app.Shopping  - Enter UserName
+[main] 2021-08-20 12:51:19 INFO  com.app.Shopping  - Enter Password
+[main] 2021-08-20 12:51:23 INFO  com.app.Shopping  - login sucessfully
+[main] 2021-08-20 12:51:23 INFO  com.app.Shopping  - ==================================
+[main] 2021-08-20 12:51:23 INFO  com.app.Shopping  - Welcome, What you wann do today? 
+[main] 2021-08-20 12:51:23 INFO  com.app.Shopping  - ==================================
+[main] 2021-08-20 12:51:23 INFO  com.app.Shopping  - 1)  View Product List
+[main] 2021-08-20 12:51:23 INFO  com.app.Shopping  - 2)  Add Product to Cart
+[main] 2021-08-20 12:51:23 INFO  com.app.Shopping  - 3)  View Cart List
+[main] 2021-08-20 12:51:23 INFO  com.app.Shopping  - 4)  Placed Order
+[main] 2021-08-20 12:51:23 INFO  com.app.Shopping  - 5)  Mark Order Received
+[main] 2021-08-20 12:51:23 INFO  com.app.Shopping  - 6)  Logout
+[main] 2021-08-20 12:51:23 INFO  com.app.Shopping  - Please enter your choice(1-6)
+[main] 2021-08-20 12:51:28 INFO  com.app.Shopping  - ID-1 Fan Price-500
+[main] 2021-08-20 12:51:28 INFO  com.app.Shopping  - 
+[main] 2021-08-20 12:51:28 INFO  com.app.Shopping  - ID-2 Table Price-120
+[main] 2021-08-20 12:51:28 INFO  com.app.Shopping  - 
+[main] 2021-08-20 12:51:28 INFO  com.app.Shopping  - ID-3 Mobile Price-800
+[main] 2021-08-20 12:51:28 INFO  com.app.Shopping  - 
+[main] 2021-08-20 12:51:28 INFO  com.app.Shopping  - ID-4 TV Price-200
+[main] 2021-08-20 12:51:28 INFO  com.app.Shopping  - 
+[main] 2021-08-20 12:51:28 INFO  com.app.Shopping  - ID-5 Parle-G Price-5
+[main] 2021-08-20 12:51:28 INFO  com.app.Shopping  - 
+[main] 2021-08-20 12:51:28 INFO  com.app.Shopping  - 1)  View Product List
+[main] 2021-08-20 12:51:28 INFO  com.app.Shopping  - 2)  Add Product to Cart
+[main] 2021-08-20 12:51:28 INFO  com.app.Shopping  - 3)  View Cart List
+[main] 2021-08-20 12:51:28 INFO  com.app.Shopping  - 4)  Placed Order
+[main] 2021-08-20 12:51:28 INFO  com.app.Shopping  - 5)  Mark Order Received
+[main] 2021-08-20 12:51:28 INFO  com.app.Shopping  - 6)  Logout
+[main] 2021-08-20 12:51:28 INFO  com.app.Shopping  - Please enter your choice(1-6)
+[main] 2021-08-20 12:51:32 INFO  com.app.Shopping  - Enter Product Id
+[main] 2021-08-20 12:51:47 INFO  com.app.Shopping  - Successfully Added to Cart!!!
+[main] 2021-08-20 12:51:47 INFO  com.app.Shopping  - 1)  View Product List
+[main] 2021-08-20 12:51:47 INFO  com.app.Shopping  - 2)  Add Product to Cart
+[main] 2021-08-20 12:51:47 INFO  com.app.Shopping  - 3)  View Cart List
+[main] 2021-08-20 12:51:47 INFO  com.app.Shopping  - 4)  Placed Order
+[main] 2021-08-20 12:51:47 INFO  com.app.Shopping  - 5)  Mark Order Received
+[main] 2021-08-20 12:51:47 INFO  com.app.Shopping  - 6)  Logout
+[main] 2021-08-20 12:51:47 INFO  com.app.Shopping  - Please enter your choice(1-6)
+[main] 2021-08-20 12:51:53 INFO  com.app.Shopping  - ID-4 TV Price-200
+[main] 2021-08-20 12:51:53 INFO  com.app.Shopping  - ID-1 Fan Price-500
+[main] 2021-08-20 12:51:53 INFO  com.app.Shopping  - ID-2 Table Price-120
+[main] 2021-08-20 12:51:53 INFO  com.app.Shopping  - Total=820
+
+[main] 2021-08-20 12:51:53 INFO  com.app.Shopping  - 1)  View Product List
+[main] 2021-08-20 12:51:53 INFO  com.app.Shopping  - 2)  Add Product to Cart
+[main] 2021-08-20 12:51:53 INFO  com.app.Shopping  - 3)  View Cart List
+[main] 2021-08-20 12:51:53 INFO  com.app.Shopping  - 4)  Placed Order
+[main] 2021-08-20 12:51:53 INFO  com.app.Shopping  - 5)  Mark Order Received
+[main] 2021-08-20 12:51:53 INFO  com.app.Shopping  - 6)  Logout
+[main] 2021-08-20 12:51:53 INFO  com.app.Shopping  - Please enter your choice(1-6)
+[main] 2021-08-20 12:52:00 INFO  com.app.Shopping  - Logout Sucessfully!!!
+[main] 2021-08-20 12:52:00 INFO  com.app.Shopping  - 1)  Login As Customer
+[main] 2021-08-20 12:52:00 INFO  com.app.Shopping  - 2)  Login As Employee
+[main] 2021-08-20 12:52:00 INFO  com.app.Shopping  - 3)  Register Customer
+[main] 2021-08-20 12:52:00 INFO  com.app.Shopping  - 4)  EXIT
+[main] 2021-08-20 12:52:00 INFO  com.app.Shopping  - Please enter your choice(1-4)
+[main] 2021-08-20 12:52:03 INFO  com.app.Shopping  - Welcome to Employee Login
+[main] 2021-08-20 12:52:03 INFO  com.app.Shopping  - Enter UserName
+[main] 2021-08-20 12:52:13 INFO  com.app.Shopping  - Enter Password
+[main] 2021-08-20 12:52:15 INFO  com.app.Shopping  - login sucessfully
+[main] 2021-08-20 12:52:15 INFO  com.app.Shopping  - ==================================
+[main] 2021-08-20 12:52:15 INFO  com.app.Shopping  - WELCOME 
+[main] 2021-08-20 12:52:15 INFO  com.app.Shopping  - ==================================
+[main] 2021-08-20 12:52:15 INFO  com.app.Shopping  - 1)  Add new product
+[main] 2021-08-20 12:52:15 INFO  com.app.Shopping  - 2)  Search product
+[main] 2021-08-20 12:52:15 INFO  com.app.Shopping  - 3)  Update product status
+[main] 2021-08-20 12:52:15 INFO  com.app.Shopping  - 4)  Logout
+[main] 2021-08-20 12:52:15 INFO  com.app.Shopping  - Select your choice 1-4
+[main] 2021-08-20 12:52:18 INFO  com.app.Shopping  - Enter product name: 
+[main] 2021-08-20 12:52:29 INFO  com.app.Shopping  - Enter product price
+[main] 2021-08-20 12:52:34 INFO  com.app.Shopping  - Product sucessfully added
+[main] 2021-08-20 12:52:34 INFO  com.app.Shopping  - 1)  Add new product
+[main] 2021-08-20 12:52:34 INFO  com.app.Shopping  - 2)  Search product
+[main] 2021-08-20 12:52:34 INFO  com.app.Shopping  - 3)  Update product status
+[main] 2021-08-20 12:52:34 INFO  com.app.Shopping  - 4)  Logout
+[main] 2021-08-20 12:52:34 INFO  com.app.Shopping  - Select your choice 1-4
+[main] 2021-08-20 12:52:49 INFO  com.app.Shopping  - Logout Sucessfully!!!
+[main] 2021-08-20 12:52:49 INFO  com.app.Shopping  - 1)  Login As Customer
+[main] 2021-08-20 12:52:49 INFO  com.app.Shopping  - 2)  Login As Employee
+[main] 2021-08-20 12:52:49 INFO  com.app.Shopping  - 3)  Register Customer
+[main] 2021-08-20 12:52:49 INFO  com.app.Shopping  - 4)  EXIT
+[main] 2021-08-20 12:52:49 INFO  com.app.Shopping  - Please enter your choice(1-4)
+[main] 2021-08-20 12:55:27 INFO  com.app.Shopping  - Welcome to online shopping Mall
+[main] 2021-08-20 12:55:27 INFO  com.app.Shopping  - ===============================
+[main] 2021-08-20 12:55:27 INFO  com.app.Shopping  - Main Menu
+[main] 2021-08-20 12:55:27 INFO  com.app.Shopping  - 1)  Login As Customer
+[main] 2021-08-20 12:55:27 INFO  com.app.Shopping  - 2)  Login As Employee
+[main] 2021-08-20 12:55:27 INFO  com.app.Shopping  - 3)  Register Customer
+[main] 2021-08-20 12:55:27 INFO  com.app.Shopping  - 4)  EXIT
+[main] 2021-08-20 12:55:27 INFO  com.app.Shopping  - Please enter your choice(1-4)
+[main] 2021-08-20 12:55:35 INFO  com.app.Shopping  - Welcome to Customer Login
+[main] 2021-08-20 12:55:35 INFO  com.app.Shopping  - Enter UserName
+[main] 2021-08-20 12:55:43 INFO  com.app.Shopping  - Enter Password
+[main] 2021-08-20 12:55:46 INFO  com.app.Shopping  - Incorrect Username and Password
+[main] 2021-08-20 12:55:46 INFO  com.app.Shopping  - 1)  Login As Customer
+[main] 2021-08-20 12:55:46 INFO  com.app.Shopping  - 2)  Login As Employee
+[main] 2021-08-20 12:55:46 INFO  com.app.Shopping  - 3)  Register Customer
+[main] 2021-08-20 12:55:46 INFO  com.app.Shopping  - 4)  EXIT
+[main] 2021-08-20 12:55:46 INFO  com.app.Shopping  - Please enter your choice(1-4)
+[main] 2021-08-20 12:55:53 INFO  com.app.Shopping  - EXIT
+[main] 2021-08-20 13:35:05 INFO  com.app.Shopping  - Welcome to online shopping Mall
+[main] 2021-08-20 13:35:05 INFO  com.app.Shopping  - ===============================
+[main] 2021-08-20 13:35:05 INFO  com.app.Shopping  - Main Menu
+[main] 2021-08-20 13:35:05 INFO  com.app.Shopping  - 1)  Login As Customer
+[main] 2021-08-20 13:35:05 INFO  com.app.Shopping  - 2)  Login As Employee
+[main] 2021-08-20 13:35:05 INFO  com.app.Shopping  - 3)  Register Customer
+[main] 2021-08-20 13:35:05 INFO  com.app.Shopping  - 4)  EXIT
+[main] 2021-08-20 13:35:05 INFO  com.app.Shopping  - Please enter your choice(1-4)
+[main] 2021-08-20 13:35:18 INFO  com.app.Shopping  - Enter the FirstName
+[main] 2021-08-20 13:35:23 INFO  com.app.Shopping  - Enter the LastName
+[main] 2021-08-20 13:35:33 INFO  com.app.Shopping  - Enter the Email
+[main] 2021-08-20 13:35:41 INFO  com.app.Shopping  - Enter the Email
+[main] 2021-08-20 13:35:45 INFO  com.app.Shopping  - Sucessfully Register
+[main] 2021-08-20 13:35:45 INFO  com.app.Shopping  - 1)  Login As Customer
+[main] 2021-08-20 13:35:45 INFO  com.app.Shopping  - 2)  Login As Employee
+[main] 2021-08-20 13:35:45 INFO  com.app.Shopping  - 3)  Register Customer
+[main] 2021-08-20 13:35:45 INFO  com.app.Shopping  - 4)  EXIT
+[main] 2021-08-20 13:35:45 INFO  com.app.Shopping  - Please enter your choice(1-4)

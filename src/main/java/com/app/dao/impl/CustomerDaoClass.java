@@ -89,6 +89,24 @@ public class CustomerDaoClass {
 		
 		return cart_list;
 	}
+	public static boolean addCustomer(String f_name,String l_name, String email, String pass) throws BusinessException{
+		try(Connection connection=MySqlDbConnection.getConnection()){
+			String sql = "insert into customer(email,password,first_name,last_name) values (?,?,?,?)";
+			PreparedStatement pst = connection.prepareStatement(sql);
+			pst.setString(1,email);
+			pst.setString(2, pass);
+			pst.setString(3, f_name);
+			pst.setString(4, l_name);
+			int resultSet = pst.executeUpdate();
+			if(resultSet > 0) {
+				return true;
+			 }
+		}catch(ClassNotFoundException | SQLException e){
+			System.out.println(e);
+			throw new BusinessException("Internal error occured,please contact support");
+		}
+		return false;
+	}
 	
 	
 	
