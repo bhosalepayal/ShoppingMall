@@ -1,4 +1,4 @@
-package com.app.dao;
+package com.app.dao.impl;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -10,7 +10,7 @@ import java.util.List;
 import com.app.dbutil.MySqlDbConnection;
 import com.app.exception.BusinessException;
 import com.app.model.Product; 
-public class DaoClass {
+public class CustomerDaoClass {
 
 	public static boolean login(String email, String password) throws BusinessException {
 		try(Connection connection=MySqlDbConnection.getConnection()){
@@ -69,25 +69,28 @@ public class DaoClass {
 	}
 	
 	public static List<Product> getCart(String email) throws BusinessException{
-		List<Product> list = new ArrayList<>();
+		List<Product> cart_list = new ArrayList<>();
 		try(Connection connection=MySqlDbConnection.getConnection()){
-			String sql = "select * from product where p_id in(select p_id from cart where email = ?";
+			String sql = "select * from product where p_id in(select p_id from cart where email = ?)";
 			PreparedStatement pst = connection.prepareStatement(sql);
 			pst.setString(1, email);
 			ResultSet resultSet = pst.executeQuery();
 			while(resultSet.next()) {
-				 Product p = new Product();
-				 p.setP_id(resultSet.getInt("p_id"));
-				 p.setP_name(resultSet.getString("p_name"));
-				 p.setP_price(resultSet.getInt("p_price"));
-				 list.add(p);
+				 Product p_cart = new Product();
+				 p_cart.setP_id(resultSet.getInt("p_id"));
+				 p_cart.setP_name(resultSet.getString("p_name"));
+				 p_cart.setP_price(resultSet.getInt("p_price"));
+				 cart_list.add(p_cart);
 			 }
 		}catch(ClassNotFoundException | SQLException e){
 			System.out.println(e);
 			throw new BusinessException("Internal error occured,please contact support");
 		}
 		
-		return list;
+		return cart_list;
 	}
+	
+	
+	
 	
 }

@@ -5,13 +5,15 @@ import java.util.Scanner;
 
 import org.apache.log4j.Logger;
 
-import com.app.dao.DaoClass;
+import com.app.dao.impl.CustomerDaoClass;
+import com.app.dao.impl.EmployeeDaoClass;
 import com.app.exception.BusinessException;
 import com.app.model.Product;
 
 public class Shopping {
 	private static Logger log = Logger.getLogger(Shopping.class);
-	
+	private static String empUname="admin";
+	private static String empPass="123";
 	public static void main(String[] args) throws BusinessException {
 		Scanner scanner = new Scanner(System.in);
 		log.info("Welcome to online shopping Mall");
@@ -27,7 +29,7 @@ public class Shopping {
 			log.info("Please enter your choice(1-4)");
 			
 			try {
-				ch = Integer.parseInt(scanner.nextLine());
+				ch = scanner.nextInt();
 			}
 			catch(NumberFormatException e) {}
 			
@@ -35,15 +37,16 @@ public class Shopping {
 			case 1:
 				log.info("Welcome to Customer Login");
 				log.info("Enter UserName");
-				String username=scanner.nextLine();
+				String username=scanner.next();
 				log.info("Enter Password");
-				String pwd=scanner.nextLine();
-				if(DaoClass.login(username, pwd)) {
-					
-					
+				String pwd=scanner.next();
+				if(CustomerDaoClass.login(username, pwd)) {
+					log.info("login sucessfully");
+					log.info("==================================");
+					log.info("Welcome, What you wann do today? ");
+					log.info("==================================");
 					int value=0;
 					do {
-						
 						log.info("1)  View Product List");
 						log.info("2)  Add Product to Cart");
 						log.info("3)  View Cart List");
@@ -53,15 +56,17 @@ public class Shopping {
 						log.info("Please enter your choice(1-6)");
 						
 						try {
-							value = Integer.parseInt(scanner.nextLine());
+							value = scanner.nextInt();
 						}
 						catch(NumberFormatException e) {}
 						
 						switch(value) {
 						case 1:
-							List<Product> productList = DaoClass.getAllProduct();
+							List<Product> productList = CustomerDaoClass.getAllProduct();
 							for(Product p:productList) {
+								
 								log.info("ID-"+p.getP_id()+" "+p.getP_name()+" Price-"+p.getP_price());	
+								log.info("");
 							}
 								
 							break;
@@ -69,20 +74,23 @@ public class Shopping {
 						case 2:
 							log.info("Enter Product Id");
 							int pid = scanner.nextInt();
-							if(DaoClass.addCart(pid, username))
-								log.info("Successfuly Added to Cart!!!");
+							if(CustomerDaoClass.addCart(pid, username))
+								log.info("Successfully Added to Cart!!!");
 							else
 								log.info("Error while adding");
 							break;
 						
 						case 3:
-							List<Product> cartList = DaoClass.getAllProduct();
+							List<Product> cartList = CustomerDaoClass.getCart(username);
+							if(cartList.isEmpty())
+								log.info("You have an empty cart!!!\n");
 							int total = 0;
 							for(Product p:cartList) {
-								total=+p.getP_price();
+								total = total+p.getP_price();
 								log.info("ID-"+p.getP_id()+" "+p.getP_name()+" Price-"+p.getP_price());	
 							}
-							log.info("Total Amount "+total);
+							log.info("Total="+total+"\n");
+							
 							break;
 							
 						case 4:
@@ -92,6 +100,9 @@ public class Shopping {
 						case 5:
 							log.info("Under Constrution");
 							break;
+						case 6:
+							log.info("Logout Sucessfully!!!");
+							break;
 							
 						}
 						
@@ -100,6 +111,56 @@ public class Shopping {
 				}else {
 					log.info("Incorrect Username and Password");
 				}
+				break;
+				
+			case 2:
+				log.info("Welcome to Employee Login");
+				log.info("Enter UserName");
+				String empUser=scanner.next();
+				if(empUser.equals(empUname)) {
+					log.info("Enter Password");
+					String pass=scanner.next();
+					if(pass.equals(empPass)) {
+						log.info("login sucessfully");
+						log.info("==================================");
+						log.info("WELCOME ");
+						log.info("==================================");
+						int empCh=0;
+						do {
+							log.info("1)  Add new product");
+							log.info("2)  Search product");
+							log.info("3)  Update product status");
+							log.info("4)  Logout");
+							log.info("Select your choice 1-4");
+							try {
+								empCh=scanner.nextInt();
+							}catch(NumberFormatException e) {}
+							
+							switch(empCh) {
+							case 1:
+								log.info("Enter product name: ");
+								String name = scanner.next();
+								log.info("Enter product price");
+								int price = scanner.nextInt();
+								if(EmployeeDaoClass.addProduct(name, price)) {
+									log.info("Product sucessfully added");
+								}else log.info("Error while adding product");
+								break;
+								
+							case 2:
+								break;
+								
+							case 3:
+								break;
+							}
+							
+						}while(empCh!=4);
+					}else log.info("INcorrect pasword");
+						
+				}else log.info("Username is incorrect");
+				break;
+				
+			case 3:
 				break;
 			}
 		}while(ch!=4);
